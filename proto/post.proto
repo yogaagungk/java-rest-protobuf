@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "com.vopher.javaprotobuf.model";
+option java_outer_classname = "PostProto";
+
+import "comment.proto";
+
+message Post{
+  int32 id = 1;
+  string title = 2;
+  string body = 3;
+  repeated Comment comment = 4;
+}

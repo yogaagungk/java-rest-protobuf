@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "com.vopher.javaprotobuf.model";
+option java_outer_classname = "CommentProto";
+
+message Comment{
+  int32 id = 1;
+  string body = 2;
+  string sender = 3;
+}
