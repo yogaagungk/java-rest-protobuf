@@ -10,7 +10,7 @@
 
     <properties>
         <protobuf.version>3.12.2</protobuf.version>
-        <spring.web.version>2.3.1.RELEASE</spring.web.version>
+        <spring.web.version>2.5.12</spring.web.version>
     </properties>
 
     <dependencies>
